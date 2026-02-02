@@ -1,0 +1,92 @@
+/* BASE */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #312d2f;
+    color: #ef77a9;
+    margin: 0;
+    padding: 0;
+}
+
+/* LAYOUT */
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+/* HEADER */
+.header {
+    background: linear-gradient(135deg, #f27ccd, #7a8f94);
+    color: white;
+    padding: 50px 20px;
+    border-radius: 18px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid rgba(255,255,255,0.8);
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 10px 0 5px;
+    font-size: 2.3em;
+}
+
+.title {
+    font-size: 1.1em;
+    font-weight: 300;
+}
+
+.contact {
+    font-size: 0.95em;
+    opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+    background-color: rgb(232, 213, 213);
+    margin-top: 30px;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+section h2 {
+    color: #5f6f73;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* LISTS */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* SKILLS */
+.skills span {
+    display: inline-block;
+    background-color: #eceff1;
+    color: #5f6f73;
+    padding: 8px 16px;
+    margin: 6px;
+    border-radius: 25px;
+    font-size: 0.9em;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+}
+
